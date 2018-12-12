@@ -1,0 +1,25 @@
+
+.socialShare{}
+.socialPlugin{text-align:center;margin:0;display:block;position:relative;float:right;right:0;background:#fff;opacity:.8;color:#000;text-align:center;width:40px;height:40px;margin-bottom:-40px;padding:0.4em 0;}
+.socialPlugin .showSocialButtons{font-size:1em;cursor:pointer;padding:0;color:rgba(0,0,0,0.7);}
+.socialPlugin .socials{color:#fff;text-align:center;display:block;-webkit-transition:.5s;-moz-transition:.5s;-o-transition:.5s;transition:.5s;opacity:0;
+transform-origin:50% 0%;-webkit-transform:scale(0) translateY(-150px);-moz-transform:scale(0) translateY(-150px);-o-transform:scale(0) translateY(-150px);transform:scale(0) translateY(-150px);}
+.socialPlugin .socials a{display:block!important;clear:both;}
+
+
+.socialPlugin .socials.opened{margin:5px 0 0 0!important;width:40px!important;opacity:1;-webkit-transition:.5s;-moz-transition:.5s;-o-transition:.5s;transition:.5s;
+-webkit-transform:scale(1) translateY(0);-moz-transform:scale(1) translateY(0);-o-transform:scale(1) translateY(0);transform:scale(1) translateY(0);}
+
+.socialPlugin .socials .fa{font-size:1.2em;overflow:hidden;position:relative;text-decoration:none;width:40px;height:40px;-webkit-backface-visibility:hidden;}
+.socialPlugin .socials .fa:before,.socialPlugin .socials .fa:after{left:0;position:absolute;text-align:center;-webkit-transition:0.5s;transition:0.5s;top:50%;width:100%;}
+.socialPlugin .socials .fa:before{color:white;-webkit-transform:translate3D(0, -50%, 0);-ms-transform:translate3D(0, -50%, 0);transform:translate3D(0, -50%, 0);z-index:2;}
+.socialPlugin .socials .fa:after{padding-bottom:25%;padding-top:300%;top:0;}
+.socialPlugin .socials .fa:hover:after{-webkit-transform:translate3D(0, -73%, 0);-ms-transform:translate3D(0, -73%, 0);transform:translate3D(0, -73%, 0);}
+.socialPlugin .socials .fa:hover:before{-webkit-transform:translate3D(0, -250%, 0);-ms-transform:translate3D(0, -250%, 0);transform:translate3D(0, -250%, 0);}
+
+
+.socialPlugin .socials .fa-twitter:after{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(25%, #00acee), color-stop(75%, #ffffff));background-image:-webkit-linear-gradient(#00acee 25%, #ffffff 75%);background-image:linear-gradient(#00acee 25%, #ffffff 75%);content:"\f099";color:#00acee;}
+.socialPlugin .socials .fa-facebook:after{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(25%, #3b5998), color-stop(75%, #ffffff));background-image:-webkit-linear-gradient(#3b5998 25%, #ffffff 75%);background-image:linear-gradient(#3b5998 25%, #ffffff 75%);content:"\f09a";color:#3b5998;}
+.socialPlugin .socials .fa-google-plus:after{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(25%, #bb0000), color-stop(75%, #ffffff));background-image:-webkit-linear-gradient(#bb0000 25%, #ffffff 75%);background-image:linear-gradient(#bb0000 25%, #ffffff 75%);content:"\f0d5";color:#bb0000;}
+.socialPlugin .socials .fa-pinterest:after{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(25%, #cb2027), color-stop(75%, #ffffff));background-image:-webkit-linear-gradient(#cb2027 25%, #ffffff 75%);background-image:linear-gradient(#cb2027 25%, #ffffff 75%);content:"\f0d2";color:#cb2027;}
+.socialPlugin .socials .fa-tumblr:after{background-image:-webkit-gradient(linear, left top, left bottom, color-stop(25%, #2C4762), color-stop(75%, #ffffff));background-image:-webkit-linear-gradient(#2C4762 25%, #ffffff 75%);background-image:linear-gradient(#2C4762 25%, #ffffff 75%);content:"\f173";color:#2C4762;}

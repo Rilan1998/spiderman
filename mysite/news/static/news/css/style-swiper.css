@@ -1,0 +1,44 @@
+.horizon-swiper,.horizon-swiper *,.horizon-swiper :after,.horizon-swiper :before{box-sizing:border-box;}
+.horizon-swiper{position:relative;background:#fff}
+.horizon-swiper a:focus,.horizon-swiper button:focus{outline:0}
+.horizon-swiper.mouse-drag,.horizon-swiper.mouse-drag *{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.horizon-swiper .horizon-outer{overflow:hidden}
+.horizon-swiper .horizon-inner{padding:0 0 20px;text-align:center;white-space:nowrap;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}
+.horizon-swiper .horizon-item{display:inline-block;position:relative;white-space:nowrap}
+.horizon-swiper .horizon-dots{display:none;text-align:center}
+.horizon-swiper .horizon-dots .hor izon-dot{display:inline-block;margin:0 3px}
+.horizon-swiper.initialized .horizon-dots{display:block}
+.horizon-swiper .horizon-next,.horizon-swiper .horizon-prev{display:none}
+.horizon-swiper.initialized .horizon-next,.horizon-swiper.initialized .horizon-prev{display:block}
+.horizon-swiper.first-item .horizon-prev,.horizon-swiper.last-item .horizon-next{opacity:.2}
+
+
+.horizon-swiper{background:none;}
+.horizon-swiper.arrows{padding:0 50px}
+.horizon-swiper .horizon-dots{padding:0 0 6px}
+.horizon-swiper .horizon-dots .horizon-dot{width:12px;height:12px;padding:0;font-size:0;line-height:1;background:0 0;border:none;border-radius:50%;-webkit-transition:background .3s;transition:background .3s}
+.horizon-swiper .horizon-dots .horizon-dot.active{background:#000;}
+.horizon-swiper .horizon-next,.horizon-swiper .horizon-prev{position:absolute;top:5px;bottom:5px;width:40px;border:none;outline:0;background:center no-repeat}
+.horizon-swiper .horizon-next:active,.horizon-swiper .horizon-next:focus,.horizon-swiper .horizon-next:hover,.horizon-swiper .horizon-prev:active,.horizon-swiper .horizon-prev:focus,.horizon-swiper .horizon-prev:hover{outline:0}
+.horizon-swiper .horizon-prev{left:5px;background-image:url(http://horizon-swiper.sebsauer.de/horizon-swiper/dist/arrow-left.svg)}
+.horizon-swiper .horizon-next{right:5px;background-image:url(http://horizon-swiper.sebsauer.de/horizon-swiper/dist/arrow-right.svg)}
+
+
+.swiper-section{padding:0;margin:0;}
+.horizon-swiper{padding:0;margin:0 auto;}
+.horizon-swiper ul,.horizon-swiper li{padding:0;margin:0;list-style-type:none;}
+.horizon-swiper.fix-item-width{width:100%;background:none!important;}
+.horizon-swiper.fix-item-width .horizon-item{width:100px!important;background:#ff0;}
+.horizon-item{width:300px;margin:4PX!IMPORTANT;background:#ff0;}
+.full-width .horizon-item{width:200px;}
+
+.horizon-item .card{width:100%;padding:20px 0;font-size:1em;text-align:center;}
+.horizon-swiper .horizon-item{padding:0;}
+.horizon-swiper .shutter-left,.horizon-swiper .shutter-right{position:absolute;height:100%;width:2.25em;z-index:10000;top:0;}
+
+
+
+
+/*
+.horizon-swiper .shutter-left{left:0;background-image:linear-gradient(to left,rgba(255,255,255,0) 0%,#000 85%);}
+.horizon-swiper .shutter-right{right:0;background-image:linear-gradient(to right,rgba(255,255,255,0) 0%,#000 85%);}

@@ -1,0 +1,168 @@
+{% load static %}
+{% if news %}
+
+<html lang="en" >
+	<head>
+
+
+<title>{{news}}</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'news/css/bootstrap.3.3.0.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'news/css/style-zbsg.css' %}">
+<link href="{% static 'news/css/css' %}" rel="stylesheet">
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-904581 node-type-article article-page section-0-znews section-1-greater-china" style="">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMPGTV3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  	   <div id="block-dfp-topoverlay" class="block block-dfp">
+  <div class="content">
+    <div id="dfp-ad-topoverlay-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-topoverlay" class="dfp-tag-wrapper" data-override="1">
+
+</div>
+</div>  </div>
+</div>
+<div id="block-block-25" class="block block-block">
+  <div class="content">
+
+
+<section id="brand" class="brand-global">
+  <header>
+
+
+
+<style>
+@keyframes fade{
+	0%{opacity:1;}
+	25%{opacity:1;}
+	75%{opacity:0;}
+	100%{opacity:0;}
+}
+
+.spinner{height:34px;width:34px;margin:-4px 2px 0 0;position:relative;color:#fff;display:inline-block;}
+.spinner:before{position:absolute;content:'';height:calc(100% + 1px);width:calc(100% + 1px);border:2px dotted #ffcc00;top:0;left:0;border-radius:inherit;animation:spin 10s linear infinite;}
+.spinner,.spinner img{border-radius:50%;-moz-border-radius:50%;-khtml-border-radius:50%;-webkit-border-radius:50%;}
+.spinner img{width:29px!important;margin:3px;}
+img.spin{display:inline-block;width:30px!important;height:auto!important;margin:-2px 2px 0 0;animation:spin 4s linear infinite;}
+@keyframes spin{
+100%{transform: rotateZ(360deg);}
+}
+</style>
+
+    <div id="zaobao-id" class="row">
+      <div id="zaobao-brand">
+				<a href=""{% url 'news:index' %}"" target="_blank">
+				<div class="zaobao95 obese"><img src="{% static 'news/images/logo.jpg' %}" border="0" class="obese000 bottom">
+                    </div>
+				<div class="zaobao95 anorexic"><img src="{% static 'news/images/logo.jpg' %}" border="0" class="anorexic bottom">
+                    </div>
+				</a>
+			</div>
+      <div id="leaderboard"><div id="dfp-ad-lb1-wrapper" class="dfp-tag-wrapper">
+<div id="dfp-ad-lb1" class="dfp-tag-wrapper" data-override="1">
+    <script type="text/javascript">
+            googletag.cmd.push(function() {
+            googletag.display("dfp-ad-lb1");
+        });
+      </script>
+</div>
+</div></div>
+    </div>
+
+  </header>
+</section>
+<div id="victoria-secret" style=""><i class="fa fa-venus"></i></div>
+
+  </div>
+</div>
+ <div class="container page-wrapper" id="CommonWealth">
+ 	<div id="NotCommon" class="row featured-top-wrapper">
+
+ 		<div class="row-eq-height">
+ 		 		</div>
+ 		<!-- ### Content Wrapper - START ### -->
+ 		<div class="row content-main-wrapper">
+
+
+ 			<div class="col-md-8 col-lg-8 boilerplate content-container" id="Milk">
+ 				 		      <section id="breadcrumbs">
+					<a id="zb_breadcrumb_main" href="{% url 'news:index' %}" target="_blank">首页</a> <i class="fa fa-angle-right"></i> <a href="{% url 'news:index' %}" target="_blank">新闻</a> <i class="fa fa-angle-right"></i> <a href="{% url 'news:index' %}" target="_blank">{{news.category}}</a>
+				</section>
+
+
+        <!-- ### REGION: content_node - START ### -->
+ 				<div class="main-content">
+         				        <div id="block-views-b121995c7bcfcd5cfd5fdf25a02d8c43" class="block block-views">
+  <div class="content">
+    <div class="view view-zb2016-node-content view-id-zb2016_node_content view-display-id-zb2016_node_content view-dom-id-fe1f460ed1128c4034cf4d359e7a1a39">
+
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+    <article id="MainCourse" class="cornwall" about="/znews/greater-china/story20181104-904581" typeof="sioc:Item foaf:Document">
+  <div class="body-content">
+    <h1>{{news.title}}</h1><aside class="trackme"><span class="datestamp date-published meta-date-published">发布<i>/</i>{{news.created_time}}</span><span class="contributor meta-byline">文<i>/</i><a href="#" target="_blank">李向民</a></span><span class="publication">来自<i>/</i><span class="lineage-item lineage-item-level-0"><a href="#" target="_blank">{{news.category}}</a></span><span class="lineage-item lineage-item-level-0">{{news.category}}</span><span class="hierarchical-select-item-separator">›</span><span class="lineage-item lineage-item-level-1"><a href="#" target="_blank">蜘蛛网</a></span></span></aside><div class="media-holder main"><!--0 video, 1 or multiple image -->
+<div style="display:none;"></div>
+<div class="loadme">
+    <picture title="{{news.title}}">
+        <img class="  lazyloaded" src="{{news.article_image}}" alt="" title="{{news.title}}">
+    </picture>
+    <figcaption>{{news.title}}</figcaption></div></div>
+      <style>
+.tooltipster-shadow {
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0px 0px 14px rgba(0,0,0,0.3);
+	color: #2c2c2c;
+}
+.tooltipster-shadow .tooltipster-content {
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+.tooltipster-text-bold{
+	font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 16px;
+    height: 16px;
+    position: relative;
+    color: #000;
+}
+.tooltipster-text{
+	font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+    color: #666;
+}
+</style>
+      <div id="FineDining" class="article-content-container">
+<p>{{news.article_content}}</p>
+
+
+    <div id="dfp-ad-imu1-wrapper" class="dfp-tag-wrapper">
+    <script type="text/javascript">
+            googletag.cmd.push(function() {
+            googletag.display("dfp-ad-imu1");
+        });
+      </script>
+</div>
+
+</div>
+    </div></article>
+        </div>
+      </div>
+    </div>
+  </div>
+                                </div>
+                </div>
+        <!-- ### REGION: content_node - END ### -->
+<div id="ob_holder" style="display: none;"><script type="text/javascript" src="{% static news/js/widgetGlobalEvent" charset="UTF-8" async=""></script></div><div class="OUTBRAIN_AR_1" data-src="" data-widget-id="AR_1" data-ob-template="#" data-ob-mark="true" data-browser="chrome" data-os="win32" data-dynload="" data-idx="0" id="outbrain_widget_0"><div class="ob-widget ob-two-rows-strip-layout CR_1">
+  </div></div>
+  </div>
+</div>
+ 				</div>
+ 				 			</div>
+{% endif  %}

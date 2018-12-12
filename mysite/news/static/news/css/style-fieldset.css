@@ -1,0 +1,143 @@
+form{border:none;margin:0;padding:0;}
+
+
+input:focus:required,textarea:focus:required,select:focus:required{color:#000!important;border-color:#a50034;}
+select,select.form-control,textarea,textarea.form-control,input.form-control,input[type=text],input[type=password],input[type=email],input[type=number],[type=text].form-control,[type=password].form-control,[type=email].form-control,[type=tel].form-control,[contenteditable].form-control,textarea:focus,textarea.form-control:focus,input.form-control:focus,input[type=text]:focus,input[type=password]:focus,input[type=email]:focus,input[type=number]:focus,[type=text].form-control:focus,[type=password].form-control:focus,[type=email].form-control:focus,[type=tel].form-control:focus,[contenteditable].form-control:focus{-webkit-box-shadow:none!important;box-shadow:none!important;}
+textarea{resize:none;}
+
+.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group{margin:0;}
+:focus::-webkit-input-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;}
+:focus::-moz-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;}
+:focus:-moz-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;}
+:focus:-ms-input-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;}
+::-webkit-input-placeholder{color:#000;}
+::-moz-placeholder{color:#000;}
+:-moz-placeholder{color:#000;}
+:-ms-input-placeholder{color:#000;}
+
+.fancy-form{margin:1em auto;}
+.fancy-form input.inline-text{margin:0 0 1em 0!important;display:inline-block!important;}
+.control-label.inline{display:inline;}
+.form-set{background:#fff;border:1px dotted #666;padding:2em;}
+.form-group,.input-group{margin:0;text-align:left;}
+
+input[type=text]{border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;-webkit-border-radius:0;}
+input[type=radio],.radio{margin-bottom:0;width:14px;height:14px;}
+input[type=checkbox],.checkbox{width:14px;height:14px;}
+.radio,.radio:after,.radio-inline,.radio-inline:after{border-radius:50%;-moz-border-radius:50%;-khtml-border-radius:50%;-webkit-border-radius:50%;padding:0;margin:0;margin-top:0!important;margin-bottom:0!important;}
+.checkbox,.checkbox:after,.checkbox-inline,.checkbox-inline:after{padding:0!important;margin:0;margin-top:0!important;margin-bottom:0!important;}
+
+.form-inline{display:inline-block;margin:0 auto;padding:0;}
+.form-inline label{margin:0 0 0 1em;color:#666;font-weight:100;}
+.control-label{font-size:1.4em;margin-bottom:0.8em;display:block;}
+.control-label span{margin-right:20px;font:0.6em Roboto;color:#000;padding-top:0.7em;text-align:center;background:#eee;width:40px;height:40px;display:inline-block;border-radius:50%;-moz-border-radius:50%;-khtml-border-radius:50%;-webkit-border-radius:50%;}
+.inline-text{padding:0.5em 0.8em;font-size:0.8em;border:none;background:#eee;}
+
+.checkator_source{position:relative;z-index:2;display:block;}
+.checkator_holder{display:inline-block;position:relative;}
+.checkator_element{border:2px solid #ccc;background-color:#fff;display:block;position:absolute;top:0;right:0;bottom:0;left:0;z-index:1;}
+.checkator_source:checked+.checkator_element:after{background-color:#a50034;display:block;content:' ';top:20%;right:20%;bottom:20%;left:20%;position:absolute;}
+.checkator_source:focus+.checkator_element{border:2px solid #a50034;}
+.checkator_source:hover+.checkator_element{background-color:#fff;border:2px solid #a50034;}
+.checkator_element.checkbox{border:2px solid #abadb3;}
+
+@media (min-width:320px) and (max-width:767px){
+.form-set{background:none;border:none;padding:1em;}
+.form-group{margin-bottom:0.6em;padding-bottom:0.6em;}
+input[type=radio],input[type=checkbox],.radio,.checkbox{width:14px;height:14px;}
+.control-label{font-size:0.9em;margin-bottom:0.4em;text-align:left;}
+.control-label span{margin-right:10px;font:1em Roboto;color:#a50034;padding:0;background:none;width:auto;height:auto;}
+.form-inline{text-align:text;margin:0.5em 0;clear:both;}
+.fancy-form .form-inline{text-align:center;margin-bottom:1em!important;}
+.form-inline label{margin:0 0 0 0.5em;padding:0;display:inline-block;clear:none;vertical-align:top;font-size:0.9em;}
+.radio,.checkbox{margin:0!important;padding:0!important;display:inline-block!important;}
+}
+
+#form-tipoff{text-align:center;width:70%;margin:0 auto;font-size:1.1em;color:#666;}
+#form-tipoff h4{font-size:1em;}
+#form-tipoff .form-text{line-height:1.8em;margin:1em auto;}
+#form-tipoff .form-text em{color:#a50034;}
+#form-tipoff .fancy-form{text-align:center;border:1px solid #ccc;margin:2em auto;padding:3em 4em;}
+#form-tipoff .fancy-form .btn-primary{color:#fff;background:#a50034;border:none;}
+#form-tipoff .form-control{box-shadow:none;border:none!important;color:#000;background:#eee;border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;-webkit-border-radius:0;}
+#form-tipoff .inline-text{width:100%;}
+#form-tipoff .input-group,#form-tipoff textarea{margin-bottom:0.8em;}
+#form-tipoff textarea{min-height:200px;}
+#form-tipoff input:focus{background:#fff;border-bottom:1px solid #eee!important;outline:none;}
+#form-tipoff textarea:focus{background:#fff;border:1px solid #eee!important;outline:none;}
+#form-tipoff .btn i{font-size:1.4em;padding:0;}
+#form-tipoff .btn-submit{margin:2em auto;color:#fff;background:#a50034;font-size:1em;padding:0.4em 2em;}
+
+@media (min-width:600px) and (max-width:800px){
+#form-tipoff{width:90%;}
+#form-tipoff .fancy-form{padding:2em;}
+}
+
+
+
+#complete .form-group{border:none;height:30px;}
+#complete .form-inline{margin:0;}
+#complete .form-inline label{margin:0 1em 0 0.5em;}
+#complete select.form-control{height:26px;padding:0!important;color:#828282;}
+
+#complete .control-label{font-size:1em;}
+#complete .control-label.inline{font-size:1em;font-weight:bold;margin-right:1em;}
+#complete input[type=radio],#complete .radio,#complete input[type=checkbox],#complete .checkbox{width:14px;height:14px;}
+#complete .form-control.focused{border:none!important;}
+#complete .btn{background:#a50034;color:#fff;font-size:1em;padding:0.6em 2em;margin-top:2em;}
+#complete .showme{margin:auto;text-align:center!important;display:block;clear:both;background:#fff;padding:0.8em 2em;width:40%;}
+#complete .showme:hover{color:#fff;background:#a50034;}
+#complete .bootstrap-select .btn{background:none;color:#000;padding:0 2em 0 0;margin:0;border:none;height:auto;border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;-webkit-border-radius:0;width:100%;}
+#complete .btn-group.open .dropdown-toggle{-webkit-box-shadow:none;box-shadow:none;}
+
+@media (min-width:320px) and (max-width:700px){
+.fancy-form input.inline-text,#complete .btn.selectpicker .filter-option{text-align:center;}
+#complete .form-group{height:50px;}
+#complete .showme{width:80%;}
+}
+
+
+/* Feedback Form */
+#form-feedback{text-align:center;width:70%;margin:0 auto;font-size:1.1em;color:#666;}
+#form-feedback h4{font-size:1em;}
+#form-feedback .form-text{line-height:1.8em;margin:1em auto;}
+#form-feedback .form-text em{color:#a50034;}
+#form-feedback .fancy-form{text-align:center;margin:2em auto;padding:0;}
+#form-feedback .fancy-form .btn-primary{color:#fff;background:#a50034;border:none;}
+#form-feedback .form-control{box-shadow:none;border:none!important;color:#000;background:#eee;border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;-webkit-border-radius:0;}
+#form-feedback .inline-text{width:100%;}
+#form-feedback .input-group,#form-feedback textarea{margin-bottom:0.8em;}
+#form-feedback select{border-color:#a50034!important;background:#f7f7f7!important;}
+#form-feedback select option{background:#fff;}
+#form-feedback textarea{min-height:200px;}
+#form-feedback .captcha{text-align:center;}
+#form-feedback .captcha input{width:60%!important;margin:auto!important;text-align:center!important;}
+#form-feedback input:focus{outline:none;background:#fff;border:none!important;-webkit-box-shadow:none!important;border-bottom:1px solid #a50034!important;}
+#form-feedback input:focus::-webkit-input-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;border:none!important;}
+#form-feedback input:focus::-moz-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;border:none!important;}
+#form-feedback input:focus:-moz-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;border:none!important;}
+#form-feedback input:focus:-ms-input-placeholder{color:#000;-webkit-box-shadow:none!important;box-shadow:none!important;border:none!important;}
+#form-feedback textarea:focus{outline:none;background:#fff;border:1px solid #a50034!important;}
+#form-feedback .btn i{font-size:1.4em;padding:0;}
+#form-feedback .btn-submit{margin:2em auto;color:#fff;background:#a50034;font-size:1em;padding:0.4em 2em;}
+#form-feedback .feedback-option,#form-feedback .feedback-option:focus,#form-feedback .feedback-option:checked,#form-feedback .feedback-option[selected="selected"]{font-weight:bold;}
+
+.static-page #form-feedback input,.static-page #form-feedback input[type="text"],.static-page #form-feedback input[type="email"],.static-page #form-feedback textarea{border-radius:0!important;-moz-border-radius:0!important;-khtml-border-radius:0!important;-webkit-border-radius:0!important;-webkit-box-shadow:none;box-shadow:none;-moz-box-shadow:none;
+text-align:left;padding:0.8em;background:#f7f7f7;border-radius:0;-moz-border-radius:0;-khtml-border-radius:0;-webkit-border-radius:0;height:auto;line-height:15px;}
+.static-page #form-feedback input,.static-page #form-feedback inputfield[type="text"],.static-page #form-feedback input[type="email"]{border:none!important;border-bottom:none;}
+
+
+@media (min-width:600px) and (max-width:800px){
+#form-feedback{width:90%;}
+#form-feedback .fancy-form{padding:2em;}
+}
+
+@media (min-width:200px) and (max-width:767px){
+#form-feedback{width:90%;}
+#form-feedback .form-group{padding:0;margin:0 auto;}
+}
+
+/*
+And so, the monkey learns by watching you.
+~ Hui Cheng
+*/
